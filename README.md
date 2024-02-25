@@ -1,4 +1,4 @@
-# CPS 261
+# CPS 261 - Advanced Java Concepts
 
 This is a selection of the homework problems for the Washtenaw Community College class [CPS 261 - Advanced Java Concepts](https://catalog.wccnet.edu/current/courses/cps-261.php) which I took in Summer 2023.
 
