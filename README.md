@@ -2,4 +2,4 @@
 
 This is a selection of the homework problems for the Washtenaw Community College class [CPS 261 - Advanced Java Concepts](https://catalog.wccnet.edu/current/courses/cps-261.php) which I took in Summer 2023.
 
-"In this course, students are introduced to the Java programming language. Looping, conditional logic and string manipulation are some of the basic programming concepts covered. Object-oriented concepts are covered such as objects and classes, constructors, inheritance, and polymorphism. Abstract classes and interfaces are minimally covered. CPS 261 will cover these topics in depth. Prior programming experience is recommended."
+"In this course, students will continue exploring Java concepts. Topics covered include input/output, abstract class and Interfaces, graphical user interface (GUI) associated with JavaFX, data structures, Java Stream, multitasking (Threads) and JUnit. Students entering this class should have a good understanding of object-oriented programming concepts such as inheritance and polymorphism."
