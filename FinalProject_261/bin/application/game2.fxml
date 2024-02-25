@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <bottom>
+      <AnchorPane prefHeight="163.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnRoll" layoutX="9.0" layoutY="92.0" mnemonicParsing="false" onAction="#btnRollClicked" prefHeight="56.0" prefWidth="289.0" text="Roll" />
+            <Button fx:id="btnHold" layoutX="299.0" layoutY="91.0" mnemonicParsing="false" onAction="#btnHoldClicked" prefHeight="58.0" prefWidth="291.0" text="Hold" />
+            <Button fx:id="btnPlayAgain" layoutX="261.0" layoutY="45.0" mnemonicParsing="false" onAction="#btnPlayAgainClicked" text="New Game" />
+            <TextField fx:id="txtGameOver" layoutX="213.0" layoutY="8.0" text="Game Over. Play Again?" style="-fx-text-fill: red;">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <left>
+      <AnchorPane fx:id="playerOnePane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lblPlayerOne" layoutX="69.0" layoutY="53.0" text="Player 1" />
+            <Label layoutX="15.0" layoutY="106.0" text="Turn Points" />
+            <Label layoutX="14.0" layoutY="139.0" text="Total Points" />
+            <TextField fx:id="playerOneTurnPoints" layoutX="84.0" layoutY="102.0" prefHeight="25.0" prefWidth="93.0" />
+            <TextField fx:id="playerOneTotalPoints" layoutX="84.0" layoutY="135.0" prefHeight="25.0" prefWidth="93.0" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane fx:id="playerTwoPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lblPlayerTwo" layoutX="74.0" layoutY="50.0" text="Player 2" />
+            <Label layoutX="14.0" layoutY="102.0" text="Turn Points" />
+            <Label layoutX="13.0" layoutY="136.0" text="Total Points" />
+            <TextField fx:id="playerTwoTurnPoints" layoutX="83.0" layoutY="98.0" prefHeight="25.0" prefWidth="93.0" />
+            <TextField fx:id="playerTwoTotalPoints" layoutX="83.0" layoutY="132.0" prefHeight="25.0" prefWidth="93.0" />
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <ImageView fx:id="imgDice" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Button fx:id="btnMainMenu2" mnemonicParsing="false" onAction="#btnMainMenuClicked" text="Main Menu" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

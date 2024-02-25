@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="299.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="btnSetup" layoutX="68.0" layoutY="174.0" mnemonicParsing="false" onAction="#btnSetupClicked" text="Play a New Game" />
+      <Button fx:id="btnHistory" layoutX="220.0" layoutY="174.0" mnemonicParsing="false" onAction="#btnHistoryClicked" text="Look up History Records" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="136.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pig.png.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
